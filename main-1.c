@@ -54,8 +54,9 @@ int multi(int lhs, int rhs)
  
 int div(int lhs, int rhs)
 {
-	//TODO implementation
-	if(lhs == 0 || rhs == 0) return 0;
+	if(rhs == 0) {
+    return 0;
+  }
 
-	return lhs/rhs;
+	return lhs / rhs;
 }
